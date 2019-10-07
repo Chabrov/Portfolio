@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Jakub Chabrowski - Portfolio</title>
+
+  <!-- Bootstrap & CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Popper-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <!-- Parallax.js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="/parallax.js-1.5.0/parallax.js"></script>
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="script.js"></script>
+  <script>
+      AOS.init();
+    </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+    <!-- navbar-dark bg-transparent float-right -->
+    <!-- When navbar is fixed-top it won't float right. If it's sticky-top it will float right but overlap and break masthead content positioning.-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar" aria-controls="collapseNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse" id="collapseNavbar">
+          <ul class="navbar-nav">  
+            <li><a class="nav-link px-3" href="#">Home</a></li>
+            <li><a class="nav-link px-3" href="#about-me">About me</a></li>
+            <li><a class="nav-link px-3" href="#projects">My projects</a></li>
+            <li><a class="nav-link active px-3" href="#">Contact Me</a></li>
+         </ul>
+        </div>
+    </nav>
+    
+  
+  <header class="masthead">
+    <div class="container-fluid h-100 align-items-center">
+      <div class="row h-100 align-items-center text-center">
+        <div class="row-fluid w-100">
+          <h1 class="col-12 align-items-center font-weight-bold">Jakub Chabrowski.</h1>
+          <div class="w-100"></div>
+          <h2 class="col-12 align-items-center font-weight-light" id="h2-portfolio">Welcome to my portfolio.</h2>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<section class="about">
+<Div class="row">
+  <div class="container col-12 col-lg-6 px-0">
+  <div class="container d-flex col-12 justify-content-start">
+      <img src="chabrowski.jpg" class="img-fluid rounded" alt="chabrowski" id="chabrowski">
+  </div>  
+</div>
+
+  <div class="container col-lg-6 col-12" id="about-me">
+    <div class="container pt-5 px-3">
+      <h2>About me</h2>
+      <p class="lead">I'm a self-taught junior developer with basics of front-end technology stack & ambition for continuous learning.</p>
+      <p class="lead">For the last couple of months I've been focused on javascript & bootstrap. In the upcoming future I plan to broaden my knowledge of javascript & python, while additionally learning essential javascript frameworks and libraries.</p>
+    </div>
+    <div class="container pt-3 px-3">
+      <h3>Technologies & Frameworks I'm currently using in my projects:</h3>
+        
+      <div class="row center-xs middle-xs justify-content-center pt-3">
+        <div class="container col-xs-1 col-sm-4 col-md-3 col-lg-2 py-1">
+          <img src="images\javascript.svg" class="svg">
+        </div>
+       <div class="container col-xs-1 col-sm-4 col-md-3 col-lg-2 py-1">
+          <img src="images\bootstrap.svg" class="svg">
+        </div>
+        <div class="container col-xs-1 col-sm-4 col-md-3 col-lg-2 py-1">
+          <img src="images\python.svg" class="svg">
+        </div>
+        <div class="container col-xs-1 col-sm-4 col-md-3 col-lg-2 py-1">
+         <img src="images\html5.svg" class="svg">
+        </div>
+        <div class="container col-xs-1 col-sm-4 col-md-3 col-lg-2 py-1">
+          <img src="images\css3.svg" class="svg">
+        </div>
+      </div>
+    </div>
+
+    
+
+    <div class="container pt-3 px-3"> 
+      <p class="lead">In the past I've worked with both Adobe Premiere Pro CC & Photoshop</p>
+    <div class="container d-flex col-6 center-xs middle-xs justify-content-center pt-3">
+       <div class="container col-4">
+        <img src="images\premiere.svg" class="svg">
+      </div>
+     <div class="container col-4">
+        <img src="images\photoshop.svg" class="svg">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<section class="projects" id="projects">
+<div class="container col-xs-12 col-md-8 pt-5">
+  <h2>My projects</h2>
+  <p class="lead">Lately I've been working on my personal training website, however I'm looking forward to focusing on more "code-heavy" projects.</p>
+
+</div>
+</section>
+
+<section class="background" id="background">
+  <div class="container col-xs-12 col-md-8 pt-5">
+    <h2>Background</h2>
+    <p class="lead">I'm an extramural physiotherapy student, <mark>finishing</mark> my final year this summer.</p>
+    <p class="lead">With plenty of time on my hands, while still working as a physiotherapist and personal trainer, I've picked up programming and web developement. I can see myself working in the field with simultaneous expenditure of my current knowledge and skills. I'm aware of my possible lack of technical knowledge and I'm willing to improve daily.</p>
+  </div>
+</section>
+
+
+</body>
