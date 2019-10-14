@@ -190,6 +190,15 @@ p {
   overflow: hidden;
 }
 
+.github-light {
+  max-width: 40px;
+  transition: transform 1s;
+}
+
+.github-light:hover {
+  transform: translate(5px, -5px);
+}
+
 .zoom:hover img {
   transform: scale(1.3);
 }
