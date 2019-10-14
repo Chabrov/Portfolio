@@ -34,7 +34,7 @@
 <body>
   <!-- navbar-dark bg-transparent float-right -->
   <!-- When navbar is fixed-top it won't float right. If it's sticky-top it will float right but overlap and break masthead content positioning.-->
-  <nav class="navbar navbar-expand-lg navbar-default fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar"
       aria-controls="collapseNavbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -50,18 +50,25 @@
     </div>
   </nav>
 
+  <div class="jumbotron row d-flex align-items-center mx-0">
+    <div class="container align-items-center text-center">
+      <h1 class="display-4">Jakub Chabrowski</h1>
+      <h2 class="display-5">Welcome to my portfolio</h2>
+    </div>
+  </div>
 
-  <header class="masthead" id="masthead">
+  <!-- OLD HEADER, was breaking horizontal padding so got turned into jumbotron-->
+  <!-- <header class="masthead" id="masthead">
     <div class="container-fluid h-100 align-items-center">
       <div class="row h-100 align-items-center text-center">
-        <div class="row-fluid w-100">
-          <h1 class="col-12 align-items-center font-weight-bold">Jakub Chabrowski.</h1>
+        <div class="row d-flex justify-content-center w-100">
+          <h1 class="col-10 align-items-center font-weight-bold">Jakub Chabrowski.</h1>
           <div class="w-100"></div>
-          <h2 class="col-12 align-items-center font-weight-light" id="h2-portfolio">Welcome to my portfolio.</h2>
+          <h2 class="col-10 align-items-center font-weight-light" id="h2-portfolio">Welcome to my portfolio.</h2>
         </div>
       </div>
     </div>
-  </header>
+  </header> -->
 
   <section class="about" id="about-me">
     <div class="container container col-sm-12 col-md-8 py-5">

@@ -12,12 +12,12 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
-.navbar-default {
+.navbar-dark {
   transition: 500ms ease;
   background: transparent;
 }
 
-.navbar-default.scrolled {
+.navbar-dark.scrolled {
   background: #0D0D0D;
 }
 
@@ -40,7 +40,6 @@ text-decoration: underline;
 
 .navbar-brand, .nav-link {
   font-size: 1.5em;
-  
 }
 
 .nav ul li a .nav-link {
@@ -70,15 +69,28 @@ text-decoration: underline;
   min-height: 700px;
   max-width: 100%;
   color: rgb(255, 255, 255);
+  
 }
 
-h1 {
+.jumbotron {
+  height: 100vh;
+  background-image: url('bamboo.jpg'); /* Pexel */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 700px;
+  max-width: 100%;
+  color: rgb(255, 255, 255); 
+}
+
+
+/* h1 {
   font-size: 5em;
 }
 
 h2 {
   font-size: 3em;
-}
+} */
 
 
 #chabrowski {
@@ -102,7 +114,9 @@ h2 {
   #chabrowski:hover {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
-    
+  }
+  .navbar-dark.scrolled {
+    background-color: transparent;
   }
 }
 
@@ -114,7 +128,6 @@ h2 {
 }
 
 .footer {
-  
   left: 0;
   bottom: 0px;
   margin-bottom: 0;
