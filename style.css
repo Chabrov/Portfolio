@@ -116,7 +116,15 @@ h2 {
     filter: grayscale(100%);
   }
   .navbar-dark.scrolled {
-    background-color: transparent;
+    background-color: #0D0D0D;
+  }
+  .nav-link {
+    background-color:#0D0D0D;
+  }
+  nav ul li {
+    width: 100%;
+    align-content: center;
+    text-align: center;
   }
 }
 
