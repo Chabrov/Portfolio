@@ -22,36 +22,36 @@
   <!-- AOS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="script.js"></script>
-  <script>
-      AOS.init();
-    </script>
+
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="script.js"></script>
 </head>
 
 
 
 <body>
-    <!-- navbar-dark bg-transparent float-right -->
-    <!-- When navbar is fixed-top it won't float right. If it's sticky-top it will float right but overlap and break masthead content positioning.-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar" aria-controls="collapseNavbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <!-- navbar-dark bg-transparent float-right -->
+  <!-- When navbar is fixed-top it won't float right. If it's sticky-top it will float right but overlap and break masthead content positioning.-->
+  <nav class="navbar navbar-expand-lg navbar-default fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseNavbar"
+      aria-controls="collapseNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="collapseNavbar">
-          <ul class="navbar-nav">  
-            <li><a class="nav-link px-3" href="#">Home</a></li>
-            <li><a class="nav-link px-3" href="#about-me">About me</a></li>
-            <li><a class="nav-link px-3" href="#projects">My projects</a></li>
-            <li><a class="nav-link active px-3" href="#">Contact Me</a></li>
-         </ul>
-        </div>
-    </nav>
-    
-  
-  <header class="masthead">
+    <div class="collapse navbar-collapse" id="collapseNavbar">
+      <ul class="navbar-nav">
+        <li><a class="nav-link px-3" href="#masthead">Home</a></li>
+        <li><a class="nav-link px-3" href="#about-me">About me</a></li>
+        <li><a class="nav-link px-3" href="#projects">My projects</a></li>
+        <li><a class="nav-link font-weight-bolder px-3 contact" href="#">Contact Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <header class="masthead" id="masthead">
     <div class="container-fluid h-100 align-items-center">
       <div class="row h-100 align-items-center text-center">
         <div class="row-fluid w-100">
@@ -63,75 +63,97 @@
     </div>
   </header>
 
-<section class="about">
-<Div class="row">
-  <div class="container col-12 col-lg-6 px-0">
-  <div class="container d-flex col-12 justify-content-start">
-      <img src="chabrowski.jpg" class="img-fluid rounded" alt="chabrowski" id="chabrowski">
-  </div>  
-</div>
-
-  <div class="container col-lg-6 col-12" id="about-me">
-    <div class="container pt-5 px-3">
-      <h2>About me</h2>
-      <p class="lead">I'm a self-taught junior developer with basics of front-end technology stack & ambition for continuous learning.</p>
-      <p class="lead">For the last couple of months I've been focused on javascript & bootstrap. In the upcoming future I plan to broaden my knowledge of javascript & python, while additionally learning essential javascript frameworks and libraries.</p>
+  <section class="about" id="about-me">
+    <div class="container container col-sm-12 col-md-8 py-5">
+      <div class="row d-flex">
+        <div class="container col-md-12 col-lg-6">
+          <img src="chabrowski.jpg" class="img-fluid rounded" style="width: 100%" alt="chabrowski" id="chabrowski">
+        </div>
+        <div class="container col-md-12 col-lg-6 pt-5">
+          <h2>About me</h2>
+          <p class="lead">I'm a self-taught developer with basics of front-end technology stack & ambition for
+            continuous learning. </p>
+          <p class="lead">For the last couple of months I've been focused on javascript & bootstrap. In the upcoming
+            future I plan to broaden my knowledge of javascript & python, while additionally learning essential
+            javascript frameworks and libraries.</p>
+        </div>
+      </div>
     </div>
-    <div class="container pt-3 px-3">
+    
+
+    <div class="container col-xs-12 col-md-8 py-3 px-3">
       <h3>Technologies & Frameworks I'm currently using in my projects:</h3>
-        
-      <div class="row center-xs middle-xs justify-content-center pt-3">
-        <div class="container col-xs-1 col-sm-4 col-md-3 col-lg-2 py-1">
+      <div class="container d-flex col-xs-12 col-8 center-xs middle-xs justify-content-center pt-3">
+        <div class="container col-4 col-sm-4 col-md-4 col-lg-3 py-1">
           <img src="images\javascript.svg" class="svg">
         </div>
-       <div class="container col-xs-1 col-sm-4 col-md-3 col-lg-2 py-1">
+        <div class="container col-4 col-sm-4 col-md-4 col-lg-3 py-1">
           <img src="images\bootstrap.svg" class="svg">
         </div>
-        <div class="container col-xs-1 col-sm-4 col-md-3 col-lg-2 py-1">
+        <div class="container col-4 col-sm-4 col-md-4 col-lg-3 py-1">
           <img src="images\python.svg" class="svg">
         </div>
-        <div class="container col-xs-1 col-sm-4 col-md-3 col-lg-2 py-1">
-         <img src="images\html5.svg" class="svg">
+        <div class="container col-4 col-sm-4 col-md-4 col-lg-3 py-1">
+          <img src="images\html5.svg" class="svg">
         </div>
-        <div class="container col-xs-1 col-sm-4 col-md-3 col-lg-2 py-1">
+        <div class="container col-4 col-sm-4 col-md-4 col-lg-3 py-1">
           <img src="images\css3.svg" class="svg">
         </div>
       </div>
     </div>
 
-    
-
-    <div class="container pt-3 px-3"> 
-      <p class="lead">In the past I've worked with both Adobe Premiere Pro CC & Photoshop</p>
-    <div class="container d-flex col-6 center-xs middle-xs justify-content-center pt-3">
-       <div class="container col-4">
-        <img src="images\premiere.svg" class="svg">
-      </div>
-     <div class="container col-4">
-        <img src="images\photoshop.svg" class="svg">
+    <div class="container col-xs-12 col-md-8 py-5 py-3 px-3">
+      <h3>In the past I've worked with both Adobe Premiere Pro CC & Photoshop</h3>
+      <div class="container d-flex col-6 center-xs middle-xs justify-content-center pt-3">
+        <div class="container col-sm-6 col-lg-4">
+          <img src="images\premiere.svg" class="svg">
+        </div>
+        <div class="container col-sm-6 col-lg-4">
+          <img src="images\photoshop.svg" class="svg">
+        </div>
       </div>
     </div>
-  </div>
-</div>
-</div>
-</section>
+  </section>
 
 
-<section class="projects" id="projects">
-<div class="container col-xs-12 col-md-8 pt-5">
-  <h2>My projects</h2>
-  <p class="lead">Lately I've been working on my personal training website, however I'm looking forward to focusing on more "code-heavy" projects.</p>
+  <section class="projects" id="projects">
+    <div class="container col-xs-12 col-md-8 py-5">
+      <h2>My projects</h2>
+      <p class="lead">Lately I've been working on my personal training website, however I'm looking forward to focusing
+        on more "code-heavy" projects.</p>
+      <div class="row col-12 py-3">
+        <div class="container col-lg-4 athlete-barbell zoom mx-0 px-0">
+          <img src="images\athlete-barbell.jpg" class="img-fluid">
+        </div>
+        <div class="container col-lg-4 coding zoom mx-0 px-0">
+          <img src="images\coding.jpg" class="img-fluid" style="width: 100%; height: 100%">
+        </div>
+        <div class="container col-lg-4 astrology zoom mx-0 px-0">
+          <img src="images\astrology.jpg" class="img-fluid" style="width: 100%; height: 100%; ">
+        </div>
+      </div>
+    </div>
+  </section>
 
-</div>
-</section>
+  <section class="background" id="background">
+    <div class="container col-xs-12 col-md-8 py-5">
+      <h2>Background</h2>
+      <p class="lead">I'm an extramural physiotherapy student, <mark>finishing</mark> my final year this summer.</p>
+      <p class="lead">With plenty of time on my hands, while still working as a physiotherapist and personal trainer,
+        I've picked up programming and web developement. I can see myself working in the field with simultaneous
+        expenditure of my current knowledge and skills. I'm aware of my possible lack of technical knowledge and I'm
+        willing to improve daily.</p>
+    </div>
+  </section>
 
-<section class="background" id="background">
-  <div class="container col-xs-12 col-md-8 pt-5">
-    <h2>Background</h2>
-    <p class="lead">I'm an extramural physiotherapy student, <mark>finishing</mark> my final year this summer.</p>
-    <p class="lead">With plenty of time on my hands, while still working as a physiotherapist and personal trainer, I've picked up programming and web developement. I can see myself working in the field with simultaneous expenditure of my current knowledge and skills. I'm aware of my possible lack of technical knowledge and I'm willing to improve daily.</p>
-  </div>
-</section>
-
-
+  
+   <div class="footer">
+      <p class="lead">Would you like to send me a note or see my CV? </p> 
+      <button type="button" class="btn-lg btn-outline-success">Contact me!</button> 
+      <br>
+      <!-- <p class="text-muted">Handcrafted by myself. 2019</p> -->
+      
+   </div>
 </body>
+
+</html>
