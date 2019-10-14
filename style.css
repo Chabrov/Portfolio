@@ -34,9 +34,8 @@ p {
 }
 
  .nav-link:hover, .nav-link.scrolled:hover {
-text-decoration: underline; 
+  text-decoration: underline; 
 }
-
 
 .navbar-brand, .nav-link {
   font-size: 1.5em;
@@ -46,11 +45,6 @@ text-decoration: underline;
   font-size: 1.5em;
 }
 
-/* .btn-success {
-  background-color: rgb(40, 158, 69) !important;
-  border-color:  rgb(40, 158, 69) !important;
-} */
-
 .btn-outline-success {
   border: none;
 }
@@ -58,6 +52,10 @@ text-decoration: underline;
 .btn-outline-success:focus {
   outline: none;
   box-shadow: none;
+}
+
+#bigBar.clicked {
+  background-color: #0D0D0D;
 }
 
 .masthead {
@@ -69,7 +67,6 @@ text-decoration: underline;
   min-height: 700px;
   max-width: 100%;
   color: rgb(255, 255, 255);
-  
 }
 
 .jumbotron {
@@ -82,16 +79,6 @@ text-decoration: underline;
   max-width: 100%;
   color: rgb(255, 255, 255); 
 }
-
-
-/* h1 {
-  font-size: 5em;
-}
-
-h2 {
-  font-size: 3em;
-} */
-
 
 #chabrowski {
   /* min-width:400px;
@@ -116,6 +103,9 @@ h2 {
     filter: grayscale(100%);
   }
   .navbar-dark.scrolled {
+    background-color: #0D0D0D;
+  }
+  .navbar-dark:focus {
     background-color: #0D0D0D;
   }
   .nav-link {
