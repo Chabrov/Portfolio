@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Jakub Chabrowski - Portfolio</title>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Bootstrap & CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <!-- Popper-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <!-- Parallax.js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="/parallax.js-1.5.0/parallax.js"></script>
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="script.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="script.js"></script>
+  <!-- DEVICON -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+</head>
+
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="bigBar">
+    <button class="navbar-toggler" onclick="fillNav()" type="button" data-toggle="collapse" data-target="#collapseNavbar"
+      aria-controls="collapseNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="openNavbar">
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item"><a class="nav-link px-3" href="#jumbotron">Home</a></li>
+        <li class="nav-item"><a class="nav-link px-3" href="#about-me">About me</a></li>
+        <li class="nav-item"><a class="nav-link px-3" href="#projects">My projects</a></li>
+        <li class="nav-item"><a class="nav-link font-weight-bolder px-3 contact" href="mailto:chabrowski.kuba@gmail.com">Contact Me</a></li>
+      </ul>
+    </div>
+
+    <!-- Hidden one-->
+    <div class="collapse navbar-collapse" id="collapseNavbar">
+      <ul class="navbar-nav align-items-center d-lg-none">
+        <li class="nav-item" data-toggle="collapse" data-target="#collapseNavbar"><a class="nav-link px-3" href="#jumbotron">Home</a></li>
+        <li class="nav-item" data-toggle="collapse" data-target="#collapseNavbar"><a class="nav-link px-3" href="#about-me">About me</a></li>
+        <li class="nav-item" data-toggle="collapse" data-target="#collapseNavbar"><a class="nav-link px-3" href="#projects">My projects</a></li>
+        <li class="nav-item" data-toggle="collapse" data-target="#collapseNavbar"><a class="nav-link font-weight-bolder px-3 contact" href="mailto:chabrowski.kuba@gmail.com">Contact Me</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron row d-flex align-items-center mx-0" id="jumbotron">
+    <div class="container align-items-center text-center">
+      <h1 class="display-4">Jakub Chabrowski</h1>
+      <h2 class="display-5" id="h2-portfolio">Welcome to my portfolio</h2>
+      <div class="container d-flex justify-content-center col-xs-1 col-2 py-1">
+        <a href="https://github.com/Chabrov" target="_blank"><img src="images\github-light.png" class="github-light"></a>
+        </div>
+    </div>
+  </div>
+
+  <!-- OLD HEADER, was breaking horizontal padding so got turned into jumbotron-->
+  <!-- <header class="masthead" id="masthead">
+    <div class="container-fluid h-100 align-items-center">
+      <div class="row h-100 align-items-center text-center">
+        <div class="row d-flex justify-content-center w-100">
+          <h1 class="col-10 align-items-center font-weight-bold">Jakub Chabrowski.</h1>
+          <div class="w-100"></div>
+          <h2 class="col-10 align-items-center font-weight-light" id="h2-portfolio">Welcome to my portfolio.</h2>
+        </div>
+      </div>
+    </div>
+  </header> -->
+
+  <section class="about" id="about-me">
+    <div class="container container col-sm-12 col-md-8 py-5">
+      <div class="row d-flex">
+        <div class="container col-md-12 col-lg-6">
+          <img src="chabrowski.jpg" class="img-fluid rounded w-100"  alt="chabrowski" id="chabrowski">
+        </div>
+        <div class="container col-md-12 col-lg-6 pt-5">
+          <h2>About me</h2>
+          <p class="lead">I'm a self-taught developer with basics of front-end technology stack & ambition for
+            continuous learning. </p>
+          <p class="lead">For the last couple of months I've been focused on javascript & react. In the upcoming
+            future I plan to broaden my knowledge of javascript & python, while additionally learning essential frameworks and libraries.</p>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="container col-xs-12 col-md-8 py-3 px-3">
+      <h4>Technologies & Frameworks I'm currently using in my projects:</h4>
+      <div class="container d-flex col-xs-12 col-8 center-xs middle-xs justify-content-center pt-3">
+        <div class="container col-4 col-sm-4 col-md-4 col-lg-3 py-1">
+          <img src="images\javascript.svg" class="svg">
+        </div>
+        <div class="container col-4 col-sm-4 col-md-4 col-lg-3 py-1">
+          <img src="images\react.svg" class="svg">
+        </div>
+        <div class="container col-4 col-sm-4 col-md-4 col-lg-3 py-1">
+          <img src="images\bootstrap.svg" class="svg">
+        </div>
+        <div class="container col-4 col-sm-4 col-md-4 col-lg-3 py-1">
+          <img src="images\html5.svg" class="svg">
+        </div>
+        <div class="container col-4 col-sm-4 col-md-4 col-lg-3 py-1">
+          <img src="images\css3.svg" class="svg">
+        </div>
+      </div>
+    </div>
+
+    <div class="container col-xs-12 col-md-8 py-5 py-3 px-3">
+      <h4>In the past I've worked with both Adobe Premiere Pro CC & Photoshop</h4>
+      <div class="container d-flex col-6 center-xs middle-xs justify-content-center pt-3">
+        <div class="container col-sm-6 col-lg-4">
+          <img src="images\premiere.svg" class="svg">
+        </div>
+        <div class="container col-sm-6 col-lg-4">
+          <img src="images\photoshop.svg" class="svg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="projects" id="projects">
+    <div class="container center-xs middle-xs col-xs-12 col-md-8 py-5">
+      <h2>My projects</h2>
+      <p class="lead">Lately I've been working on Apex, the diet app & my personal training website, however I'm looking forward to focusing
+        on more "code-heavy" projects.</p>
+      <div class="row col-12 py-3 mx-auto">
+        <div class="container col-lg-4 athlete-barbell zoom mx-0 px-0">
+          <img src="images\athlete-barbell.jpg" class="img-fluid w-100 h-100">
+        </div>
+        <div class="container col-lg-4 coding zoom mx-0 px-0">
+          <img src="images\coding.jpg" class="img-fluid w-100 h-100">
+        </div>
+        <div class="container col-lg-4 astrology zoom mx-0 px-0">
+          <img src="images\astrology.jpg" class="img-fluid w-100 h-100">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="background" id="background">
+    <div class="container col-xs-12 col-md-8 py-5">
+      <h2>Background</h2>
+      <p class="lead">I'm an extramural physiotherapy student, <mark>finishing</mark> my final year this summer.</p>
+      <p class="lead">With plenty of time on my hands, while still working as a physiotherapist and personal trainer,
+        I've picked up programming and web developement. I can see myself working in the field with simultaneous
+        expenditure of my current knowledge and skills. I'm aware of my possible lack of technical knowledge and I'm
+        willing to improve daily.</p>
+    </div>
+  </section>
+
+  
+   <div class="footer">
+      <p class="lead pt-3">Would you like to send me a note or see my CV? </p> 
+      <a href="mailto:chabrowski.kuba@gmail.com"><button type="button" class="btn-lg btn-outline-success mb-3">Chabrowski.kuba@gmail.com</button></a>
+      <br>
+      <!-- <p class="text-muted">Handcrafted by myself. 2019</p> -->
+   </div>
+</body>
+
+</html>
