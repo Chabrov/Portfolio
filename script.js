@@ -13,8 +13,9 @@ function fillNav() {
     bigBar.style.backgroundColor = 'white';
 } else if(bigBar.style.backgroundColor = 'white') {
     bigBar.style.backgroundColor = 'transparent';
+  }
+  
 }
-};
 
-const background = document.getElementById("chabrowski");
-new simpleParallax(background)
+// const background = document.getElementById("chabrowski");
+// new simpleParallax(background)

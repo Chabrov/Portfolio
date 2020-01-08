@@ -59,7 +59,7 @@ p {
   background-color: white;
 }
 
-.masthead {
+/* .masthead {
   height: 100vh;
   background-image: url('./images/background/snow.jpg'); 
   background-size: cover;
@@ -68,7 +68,7 @@ p {
   min-height: 700px;
   max-width: 100%;
   color: rgb(255, 255, 255);
-}
+} */
 
 .jumbotron {
   height: 100vh;
@@ -105,14 +105,16 @@ p {
     filter: grayscale(100%);
   }
   .navbar-dark.scrolled {
-    background-color: white;
+    background-color: transparent;
   }
   .navbar-dark:focus {
     background-color: white;
   }
   .nav-link {
-    background-color:white;
+    background-color: transparent;
+    color: black !important;
   }
+
   nav ul li {
     width: 100%;
     align-content: center;
