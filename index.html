@@ -20,16 +20,17 @@
   <!-- Parallax.js -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="/parallax.js-1.5.0/parallax.js"></script>
-  <!-- AOS -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
   <script src="script.js"></script>
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- Font -->
   <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap" rel="stylesheet">
   <script type="text/javascript" src="script.js"></script>
   <!-- DEVICON -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 
@@ -46,7 +47,7 @@
         <li class="nav-item"><a class="nav-link px-3" href="#jumbotron">Home</a></li>
         <li class="nav-item"><a class="nav-link px-3" href="#about-me">About me</a></li>
         <li class="nav-item"><a class="nav-link px-3" href="#projects">My projects</a></li>
-        <li class="nav-item"><a class="nav-link font-weight-bolder px-3 contact" href="mailto:chabrowski.kuba@gmail.com">Contact Me</a></li>
+        <li class="nav-item"><a class="nav-link px-3 contact" href="mailto:chabrowski.kuba@gmail.com">Contact Me</a></li>
       </ul>
     </div>
 
@@ -62,8 +63,8 @@
   </nav>
 
   <div class="jumbotron row d-flex align-items-center mx-0" id="jumbotron">
-    <div class="container align-items-center text-center">
-      <h1 class="display-4">Jakub Chabrowski</h1>
+    <div class="container align-items-center text-center" >
+      <h1 class="display-4" data-aos="fade-up">Jakub Chabrowski</h1>
       <h2 class="display-5" id="h2-portfolio">Welcome to my portfolio</h2>
       <div class="container d-flex justify-content-center col-xs-1 col-2 py-1">
         <a href="https://github.com/Chabrov" target="_blank"><img src="images\github-light.png" class="github-light"></a>
@@ -71,26 +72,13 @@
     </div>
   </div>
 
-  <!-- OLD HEADER, was breaking horizontal padding so got turned into jumbotron-->
-  <!-- <header class="masthead" id="masthead">
-    <div class="container-fluid h-100 align-items-center">
-      <div class="row h-100 align-items-center text-center">
-        <div class="row d-flex justify-content-center w-100">
-          <h1 class="col-10 align-items-center font-weight-bold">Jakub Chabrowski.</h1>
-          <div class="w-100"></div>
-          <h2 class="col-10 align-items-center font-weight-light" id="h2-portfolio">Welcome to my portfolio.</h2>
-        </div>
-      </div>
-    </div>
-  </header> -->
-
   <section class="about" id="about-me">
     <div class="container container col-sm-12 col-md-8 py-5">
       <div class="row d-flex">
         <div class="container col-md-12 col-lg-6">
           <img src="chabrowski.jpg" class="img-fluid rounded w-100"  alt="chabrowski" id="chabrowski">
         </div>
-        <div class="container col-md-12 col-lg-6 pt-5">
+        <div class="container col-md-12 col-lg-6 pt-5" data-aos="fade-up">
           <h2>About me</h2>
           <p class="lead">I'm a self-taught developer with basics of front-end technology stack & ambition for
             continuous learning. </p>
@@ -148,7 +136,7 @@
         <div class="card mx-0">
           <div class="row no-gutters">
             <div class="col-md-4 zoom">
-              <img src="images/apex.jpg" class="card-img" alt="...">
+              <img src="images/apex.jpg" class="card-img h-100" alt="Apex">
             </div>
             <div class="col-md-8">
               <div class="card-body">
@@ -192,6 +180,10 @@
       <br>
       <!-- <p class="text-muted">Handcrafted by myself. 2019</p> -->
    </div>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

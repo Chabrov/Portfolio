@@ -18,19 +18,20 @@ p {
 }
 
 .navbar-dark.scrolled {
-  background: #0D0D0D;
+  background: white;
 }
 
 .nav-link {
-  color: #798A8A !important;
+  color: white !important;
+  font-family: 'Lato', sans-serif;
 }
 
 .nav-link.scrolled {
-  color: white !important;
+  color: black !important;
 }
 
 .contact.nav-link.scrolled {
-  color: rgb(40, 158, 69) !important;
+  color: black !important;
 }
 
  .nav-link:hover, .nav-link.scrolled:hover {
@@ -55,12 +56,12 @@ p {
 }
 
 #bigBar.clicked {
-  background-color: #0D0D0D;
+  background-color: white;
 }
 
 .masthead {
   height: 100vh;
-  background-image: url('bamboo.jpg'); /* Pexel */
+  background-image: url('./images/background/snow.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -71,19 +72,20 @@ p {
 
 .jumbotron {
   height: 100vh;
-  background-image: url('bamboo.jpg'); /* Pexel */
+  background-image: url('./images/background/snow.jpg'); /* Pexel */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 700px;
   max-width: 100%;
-  color: rgb(255, 255, 255); 
+  font-family: 'Lato', sans-serif;
+  color: rgb(0, 0, 0); 
 }
 
 #chabrowski {
   /* min-width:400px;
   max-width: 100%; */
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   transition: all 1s ease;
 }
@@ -103,13 +105,13 @@ p {
     filter: grayscale(100%);
   }
   .navbar-dark.scrolled {
-    background-color: #0D0D0D;
+    background-color: white;
   }
   .navbar-dark:focus {
-    background-color: #0D0D0D;
+    background-color: white;
   }
   .nav-link {
-    background-color:#0D0D0D;
+    background-color:white;
   }
   nav ul li {
     width: 100%;
