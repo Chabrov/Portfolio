@@ -139,7 +139,8 @@ p {
   text-align: center;
 }
 
-#h2-portfolio, .navbar, .github-light {
+/* #h2-portfolio, .github-light */
+.navbar  { 
   
   -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
      -moz-animation: fadein 5s; /* Firefox < 16 */
