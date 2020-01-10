@@ -96,6 +96,12 @@ p {
   transition: all 1s ease;
 }
 
+.code-sample {
+  align-items: center;
+  line-height: 1;
+}
+
+
 @media screen and (max-width: 991px) {
   #chabrowski {
     max-width: 100%;
