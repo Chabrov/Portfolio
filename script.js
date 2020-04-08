@@ -14,7 +14,6 @@ function fillNav() {
 } else if(bigBar.style.backgroundColor = 'white') {
     bigBar.style.backgroundColor = 'transparent';
   }
-  
 }
 
 // const background = document.getElementById("chabrowski");
